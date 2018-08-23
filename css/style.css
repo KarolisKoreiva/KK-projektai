@@ -1,0 +1,33 @@
+/*Color codes:
+Tamsi melsva: #579091
+Sviesi pilksva: #B8E0AB
+Zalia: #6FBF6C
+Ryski zalia: #7AD58C
+Vidutine zalia: #A8DC92*/
+
+body{
+	background-color: #B8E0AB;
+    font-family: calibri;
+}
+h1{
+	color: #579091;
+}
+a{
+    margin: auto;
+	margin-bottom: 2px;
+    font-size: 20px;
+    max-width: 90%;
+
+}
+a:link, a:visited {
+    background-color: #7AD58C;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: 1px solid green;
+}
+a:hover {
+    background-color: #6FBF6C;
+}

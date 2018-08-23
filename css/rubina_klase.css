@@ -1,0 +1,374 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif; 
+}
+html, body{
+	height: 100%;
+}
+.container{
+	min-height: 100%;
+}
+header .dimmer{
+	padding: 37px 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	min-height: 715px;
+	align-items: center;
+	background-color: rgba(0,0,0,0.5);
+}
+header{
+	background-image: url("../img/Rubina_klase/apartment1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo{
+	width: 135px;
+	height: 73px;
+}
+.logo img{
+	width: 135px;
+	height: 73px;
+}
+.scroll{
+	width: 93px;
+	height: 93px;
+}
+.scroll img{
+	width: 93px;
+	height: 93px;
+}
+.content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 580px;
+}
+.content h1{
+	font-size: 48px;
+	color: white;
+	text-align: center;
+	margin-bottom: 50px;
+}
+button{
+	background-color: rgba(242,78,37,1);
+	border: none;
+	color: white;
+	width: 200px;
+	height: 53px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 53px;
+}
+button:hover{
+	background-color: rgba(230,67,31,1);
+}
+section.img{
+	height: 450px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.first{
+	background-image: url("../img/Rubina_klase/apartment5.jpg");
+}
+.second{
+	background-image: url("../img/Rubina_klase/apartment3.jpg");
+}
+.third{
+	background-image: url("../img/Rubina_klase/apartment4.jpg");
+}
+section.text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-height: 430px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+section.top{
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+.top p{
+	max-width: 455px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 200;
+}
+.top p:first-of-type{
+	margin-bottom: 18px;
+}
+h2{
+	color: rgb(29,91,147);
+	font-size: 36px;
+	font-weight: 100;
+}
+.text a{
+	text-decoration: none;
+	color: #E55A29;
+	font-size: 18px;
+}
+section.middle{
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: rgba(29,91,147,0.1);
+	min-height: 601px;
+}
+.icon_box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: baseline;
+	max-width: 900px;
+}
+.middle h2{
+	text-align: center;
+	max-width: 380px;
+}
+.minicontent{
+	width: 185px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 5px;
+}
+.minicontent h3{
+	color: rgb(29,91,147);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	align-self: flex-start;
+}
+.minicontent img{
+	width: 82px;
+	height: 82px;
+}
+.minicontent p{
+	border-top: 1px solid lightgrey;
+	padding-top: 10px;
+}
+section.text.double_content p{
+	font-size: 18px;
+	max-width: 335px;
+}
+section.text.mid2{
+	flex-direction: column;
+	justify-content: space-around;
+}
+.mid2 h2{
+	max-width: 220px;
+	text-align: center;
+	margin-top: 20px;
+}
+.double_content{
+	display: flex;
+	flex-direction: row;
+	max-width: 900px;
+	justify-content: space-between;
+}
+.double_content p{
+	max-width: 350px;
+	margin: 20px;
+}
+.last{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.last h2{
+	max-width: 900px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+.bro_wrap{
+	display: flex;
+	flex-direction: row;
+	max-width: 900px;
+	align-content: space-between;
+	justify-content: space-between;
+}
+.bro{
+	max-width: 400px;
+	margin-right: 20px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+
+}
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.form .group input, .form .group select, .form .group textarea{
+	width: 100%;
+	max-width: 282px;
+	border-radius: 3px;
+
+}
+.form label{
+	margin-right: 10px;
+	flex-wrap: nowrap;
+	font-weight: bold;
+	width: 100px;
+}
+textarea{
+	min-height: 70px;
+}
+.box p:last-of-type{
+	font-style: italic;
+}
+.box a{
+	color: grey;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.box i{
+	color: grey;
+}
+.radial{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.radial span{
+	color: grey;
+}
+.radial #upd{
+	width: auto;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+div.form.group.update{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.box{
+	display: flex;
+	max-width: 288px;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.box button{
+	margin: 20px;
+}
+.bro p{
+	font-size: 14px;
+}
+.bro img{
+	max-width: 200px;
+	margin-top: 20px;
+}
+div.prelast{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: rgba(242,242,242,1);
+	font-size: 14px;
+	line-height: 20px;
+}
+.flex {
+	min-height: 227px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 900px;
+	margin: auto;
+}
+div.prelast img{
+	height: 80px;
+	width: 149px;
+	margin: 5px;
+}
+div.prelast li{
+	margin-left: 20px;
+}
+div.last{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: rgba(29,91,147,0.13);
+	text-align: center;
+	min-height: 78px;
+}
+div.last p{
+	max-width: 900px;
+	margin: auto;
+	font-size: 12px;
+}
+footer{
+	background-color: rgba(0,51,102,1);
+	min-height: 60px;
+	color: white;
+	line-height: 60px;
+	font-size: 12px;
+}
+.footer{
+	display: flex;
+	max-width: 920px;
+	margin: auto;
+	min-height: 60px;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.footer.links{
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+footer .footer .links a{
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	.bro_wrap{
+		flex-direction: column;
+	}
+	.double_content{
+		flex-direction: column;
+	}
+	.icon_box{
+		flex-wrap: wrap;
+		max-width: 400px;
+	}
+	.flex{
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 480px) {
+	.group{
+		flex-direction: column;
+		align-items: center;
+	}
+	.bro_wrap{
+		align-items: center;
+	}
+	.footer{
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+
+	}
+	.icon_box{
+		flex-direction: column;
+	}
+}

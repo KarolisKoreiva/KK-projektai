@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+header {
+  min-height: 758px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/Snowboard/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header nav {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; }
+    header nav ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center; }
+      header nav ul div {
+        margin-left: 80px; }
+      header nav ul li {
+        margin-left: 25px;
+        text-transform: uppercase; }
+    header nav .basket {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 90px;
+      width: 100%;
+      margin-right: 90px; }
+      header nav .basket span {
+        margin-left: 8px; }
+  header .textWrap {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white; }
+    header .textWrap h1 {
+      font-size: 80px; }
+    header .textWrap a {
+      display: block;
+      margin-top: 60px;
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 14px;
+      background-color: black;
+      align-self: flex-end; }
+
+.slider {
+  margin: auto;
+  text-align: center;
+  position: relative; }
+  .slider h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 160px;
+    font-weight: bold; }
+  .slider p {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .slider .sliderWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    position: relative; }
+    .slider .sliderWrap .blur {
+      opacity: 0.4; }
+    .slider .sliderWrap div {
+      align-self: center;
+      position: absolute; }
+    .slider .sliderWrap #prev {
+      left: 10px; }
+    .slider .sliderWrap #next {
+      right: 10px; }
+  .slider h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 215px; }
+
+.withBcg {
+  background-image: url("../img/Snowboard/bgimage.jpg");
+  min-height: 954px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .withBcg .withBcgWrap {
+    max-width: 960px;
+    min-height: 954px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .withBcg .withBcgWrap h2 {
+      text-transform: uppercase;
+      font-size: 48px;
+      max-width: 370px;
+      margin-bottom: 30px; }
+      .withBcg .withBcgWrap h2 span {
+        font-size: 18px; }
+    .withBcg .withBcgWrap p {
+      max-width: 620px;
+      font-size: 15px;
+      line-height: 30px;
+      margin-top: 45px; }
+
+.sectionWrap {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  min-height: 680px; }
+  .sectionWrap h2 {
+    margin-top: 125px;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 35px; }
+  .sectionWrap .itemsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .sectionWrap .itemsWrap .items {
+      max-width: 220px;
+      margin-top: 90px; }
+      .sectionWrap .itemsWrap .items p {
+        text-align: left;
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 30px; }
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 395px; }
+  footer .footerWrap {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 80px; }
+    footer .footerWrap .top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      footer .footerWrap .top h4 {
+        text-transform: uppercase;
+        font-size: 17px;
+        margin-bottom: 25px; }
+      footer .footerWrap .top ul {
+        list-style-type: none; }
+        footer .footerWrap .top ul a {
+          font-size: 14px;
+          line-height: 30px; }
+      footer .footerWrap .top .inputWrap {
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px; }
+        footer .footerWrap .top .inputWrap input {
+          height: 45px;
+          width: 165px;
+          border: none; }
+        footer .footerWrap .top .inputWrap div {
+          background-color: #c7c7c7;
+          width: 60px;
+          height: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: black; }
+    footer .footerWrap .bottom {
+      margin-top: 70px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px; }
+
+/*# sourceMappingURL=snowboard.css.map */

@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.scores{
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid tomato;
+    border-radius: 15px;
+}
+#hsList{
+    margin-left: 30px;
+}
+aside{
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid tomato;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    font-size: 7rem;
+    background: linear-gradient(to right, red 0%, green 50%, blue 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    padding: 20px;
+}
+.btnWrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    display: none;
+    font-size: 1.5rem;
+}
+#guess{
+    padding: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    border: 1px solid tomato;
+    border-radius: 15px;
+}
+
+#grid{
+    margin: 0 auto;
+    max-width: 630px;
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 20px;
+}
+
+.gameCube{
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.gameCube:hover{
+    opacity: 0.8;
+}
+.resultDisplay{
+    font-size: 10rem;
+    text-align: center;
+}

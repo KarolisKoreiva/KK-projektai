@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Color Game</title>
+        <meta charset="utf-8" />
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/gamecolor.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="scores">
+                <h2>Hight Scores</h2>
+                <ul id="hsList">
+                </ul>
+            </div>
+            <div>
+                <h1>Color game</h1>
+                <div id="guess">
+                    <span class="name">Guess color: </span>
+                    <span class="rgbColor"></span>
+                </div>
+                <div class="btnWrap">
+                    <button id="restart">Restart</button>
+                    <button id="exit">Exit</button>
+                </div>
+            </div>
+            <aside>
+                <h2><span id="name"></span> result: </h2>
+                <div class="resultDisplay"></div>
+            </aside>
+        </header>
+        <div id="grid">
+            <div class="gameCube"></div>
+            <div class="gameCube"></div>
+            <div class="gameCube"></div>
+            <div class="gameCube"></div>
+            <div class="gameCube"></div>
+            <div class="gameCube"></div>
+        </div>
+        <script src="../script/jquery-3.3.1.min.js"></script>
+        <script src="../script/colorgame.js"></script>
+    </body>
+</html>

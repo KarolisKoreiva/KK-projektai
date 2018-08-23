@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	width: 5%;
+	min-width: 5%;
+	height: 100%;
+	float: left;
+	padding-top: 10%;
+	background-image: linear-gradient(blue, white);
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+}
+
+.menu li{
+	position: relative;
+	display: block;
+	height: 50px;
+	margin-bottom: 2px;
+	background-color: yellow;
+	text-align: center;
+	line-height: 50px;
+}
+
+.submenu{
+	visibility: hidden;
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	height: 30px;
+	width: 80px;
+	z-index: 1000;
+}
+.submenu li{
+	background-color: lightyellow;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+}
+.submenu li:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+32,207cca+32,2989d8+66,7db9e8+100 */
+	background: #1e5799; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 32%, #207cca 32%, #2989d8 66%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%,#207cca 32%,#207cca 32%,#2989d8 66%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #1e5799 0%,#207cca 32%,#207cca 32%,#2989d8 66%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+main{
+	margin-left: 5%;
+	padding-left: 10px;
+	height: 100%;
+	position: relative;
+	background: #1e5799; /* Old browsers */
+	background: radial-gradient(ellipse at center, #1e5799 0%,#2989d8 57%,#207cca 71%,#207cca 81%,#207cca 91%,#207cca 91%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-repeat: repeat;
+}
+section{
+	width: 400px;
+	height: 300px;
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    color: darkviolet;
+   	transform: translate(-50%, -50%);
+   	background-image: url("../img/Flex/paris.jpg");
+	background-color: grey;
+	opacity: 0.2;
+	border-radius: 5%;
+}
+article{
+	height: 50%
+	}
+p, h2{
+	background: transparent;
+	margin: 10px;
+}
+p{
+	text-align: justify;
+}
+section:hover{
+	opacity: 1;
+}
+.parent{
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	height: 400px;
+
+}
+.flex{
+	margin: 2px;
+	border: 1px solid blue;
+	width: 100px;
+	height: 100px;
+}
+.flex.first{
+	flex: 1;
+}
+.flex.second{
+	flex: 2;
+	align-self: flex-start;
+}
